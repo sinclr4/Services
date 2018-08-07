@@ -19,8 +19,8 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Services.json">
+    <EmbeddedResource Include="Services.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
+    </EmbeddedResource>
   </ItemGroup>
 </Project>
